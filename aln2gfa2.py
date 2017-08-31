@@ -98,7 +98,7 @@ def main():
     G = create_graph(sys.argv[1])
     nx.write_edgelist(G, sys.argv[1][0:-4] + "_edgelist.csv")
     verifier_graph(G);
-    create_gfa2(G)
+    #create_gfa2(G)
     return(0);
 
 main()
